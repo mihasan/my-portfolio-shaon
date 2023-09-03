@@ -1,0 +1,68 @@
+.container{display: flex;
+margin-left: 50px;
+margin-bottom: 50px;
+
+}
+.item{
+    
+    padding: 30px;
+    justify-content: center;
+    
+}
+.item img{width: 100%;}
+.blog{text-align:justify;
+    margin-right: 50px;
+color: rgb(19, 57, 57);}
+
+h1{font-size: 50px;}
+
+body{font-family: 'Oswald', sans-serif;
+background-color: antiquewhite;
+/* background-image: url(images/movie_images/background\ image.jpg);
+background-repeat: no-repeat;
+background-size: cover; */
+
+}
+
+
+.movies_images{display: flex;  
+background-color: #f3c286;
+padding: 5px;      
+}
+
+.image-item{width: 25%;
+padding: 5px;}
+.movies_images img{width: 100%;}
+
+
+.list-movies{
+    margin-left: 75px;
+}
+
+.learn-more-button{
+    background-image: linear-gradient(skyblue,blue);
+    color: yellow;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+.review-divison{display: flex;
+    margin-left: 50px;
+}
+
+.review-box{width: 50%;
+box-shadow: 7px 7px 10px gray;
+margin: 50px;
+padding: 100px;
+border-radius: 15%;;
+} 
+
+#worst{border-left:7px solid #f3c286;}
+
+#best{border-left:7px solid #ed8b14;}
+
+#review{margin-left: 50px;
+text-shadow: 5px 5px 5px gray;}
+footer{text-align: center;}
